@@ -1,10 +1,10 @@
 /*******************************************************************************
 																			   
-	    Exporting regression results to LaTeX, with different fixed effects 						       
-				      		 Elena Casanovas, Dec 2020 				 	   	   	   
+	Exporting regression results to LaTeX, with different fixed effects 						       
+			Elena Casanovas, Dec 2020 				 	   	   	   
 		   	   																   
 *******************************************************************************/
-	cd "/Users/elenacasanovas/Desktop/untitled folder 2"
+	cd "" // set cd here
 	
 *-- 01. Run regressions 
 	webuse regsmpl.dta, clear
@@ -32,4 +32,4 @@
 	#delimit cr 
 	
 	
-							*	End of the do-file	*
+			*	End of the do-file	*
